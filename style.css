@@ -55,3 +55,77 @@ header h1 {
 .search-container button:hover {
     background-color: #e64a19;
 }
+
+/* Search results heading */
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Meal container layout */
+
+.meal-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 20px 40px;
+}
+
+/* Individual meal card */
+
+.meal-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* Meal image */
+
+.meal-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Meal title */
+
+.meal-card h3 {
+    margin: 15px 5px 10px;
+    color: #ff7043;
+}
+
+/* Meal information */
+.meal-card p {
+    margin: 5px;
+    color: #666;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 500px) {
+
+    .search-container input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search-container {
+        margin: 20px;
+    }
+
+    .meal-container {
+        padding: 15px;
+    }
+}
