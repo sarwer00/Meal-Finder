@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Finder</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍽️ Meal Finder</h1>
+        <p>Search your favorite meals and discover new recipes!</p>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="searchInput"
+               placeholder="Enter meal name...">
+
+        <button onclick="searchMeals()">Search</button>
+    </div>
+
+    <h2>Search Results</h2>
+
+    <div id="mealContainer" class="meal-container">
+        <p>Search for your favorite meals!</p>
+    </div>
+
+    <footer>
+        <p>Meal data provided by TheMealDB API</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
