@@ -5,33 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meal Finder</title>
 
+    <!-- Connect external CSS file -->
+     
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Website Header -->
 
     <header>
         <h1>🍽️ Meal Finder</h1>
         <p>Search your favorite meals and discover new recipes!</p>
     </header>
 
+    <!-- Search Section -->
+
     <div class="search-container">
+
+        <!-- Input field for meal name -->
+
         <input type="text" id="searchInput"
                placeholder="Enter meal name...">
 
+        <!-- Search button -->
+
         <button onclick="searchMeals()">Search</button>
+
     </div>
-
-    <h2>Search Results</h2>
-
-    <div id="mealContainer" class="meal-container">
-        <p>Search for your favorite meals!</p>
-    </div>
-
-    <footer>
-        <p>Meal data provided by TheMealDB API</p>
-    </footer>
-
-    <script src="script.js"></script>
-
-</body>
-</html>
